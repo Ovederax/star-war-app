@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SHOULD NOT render parameters WHEN have not data 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 MuiCard-root css-17hoyqt-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiStack-root css-gqf4f0-MuiStack-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-npuat8-MuiTypography-root"
+      >
+        Luke Skywalker
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SHOULD render parameters 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 MuiCard-root css-17hoyqt-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiStack-root css-gqf4f0-MuiStack-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-npuat8-MuiTypography-root"
+      >
+        Luke Skywalker
+      </p>
+      <div
+        class="MuiStack-root css-1r6rngd-MuiStack-root"
+      >
+        <div
+          class="MuiStack-root css-zgbp5c-MuiStack-root"
+        >
+          <div
+            class="css-18wfr7y"
+          >
+            172
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-794qm8-MuiTypography-root"
+          >
+            height
+          </p>
+        </div>
+        <div
+          class="MuiStack-root css-zgbp5c-MuiStack-root"
+        >
+          <div
+            class="css-18wfr7y"
+          >
+            77
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-794qm8-MuiTypography-root"
+          >
+            mass
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiStack-root css-1r6rngd-MuiStack-root"
+      >
+        <div
+          class="css-1vheds3"
+          data-testid="card-gender-tag"
+          style="background: rgb(115, 214, 119);"
+        >
+          male
+        </div>
+        <div
+          class="css-1vheds3"
+          data-testid="card-birth-year-tag"
+          style="background: rgb(7, 214, 242);"
+        >
+          19BBY
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
