@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/star-war-app/static/css/main.0ff5b539.css",
-    "main.js": "/star-war-app/static/js/main.7783bf6c.js",
+    "main.js": "/star-war-app/static/js/main.da6a0e33.js",
     "static/js/787.ed87eb32.chunk.js": "/star-war-app/static/js/787.ed87eb32.chunk.js",
     "static/media/yoda.png": "/star-war-app/static/media/yoda.de4979786fd0716c4315.png",
     "static/media/teamRocket.png": "/star-war-app/static/media/teamRocket.595f1de46ab246d9c190.png",
@@ -43,11 +43,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/star-war-app/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/star-war-app/index.html",
     "main.0ff5b539.css.map": "/star-war-app/static/css/main.0ff5b539.css.map",
-    "main.7783bf6c.js.map": "/star-war-app/static/js/main.7783bf6c.js.map",
+    "main.da6a0e33.js.map": "/star-war-app/static/js/main.da6a0e33.js.map",
     "787.ed87eb32.chunk.js.map": "/star-war-app/static/js/787.ed87eb32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ff5b539.css",
-    "static/js/main.7783bf6c.js"
+    "static/js/main.da6a0e33.js"
   ]
 }
