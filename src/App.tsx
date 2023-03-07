@@ -23,17 +23,22 @@ const pageRoutes = [
   },
 ]
 
-export const router = createBrowserRouter([
-  ...pageRoutes,
+export const router = createBrowserRouter(
+  [
+    ...pageRoutes,
+    {
+      path: routes.page_404,
+      element: <NotFound />,
+    },
+    {
+      path: '*',
+      element: <Navigate to={routes.page_404} replace />,
+    },
+  ],
   {
-    path: routes.page_404,
-    element: <NotFound />,
+    basename: `/${process.env.PUBLIC_URL}`,
   },
-  {
-    path: '*',
-    element: <Navigate to={routes.page_404} replace />,
-  },
-])
+)
 
 function App() {
   return <RouterProvider router={router} />

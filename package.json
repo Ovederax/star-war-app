@@ -1,5 +1,6 @@
 {
   "name": "star-war-app",
+  "homepage": "https://ovederax.github.io/star-war-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,13 +31,15 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.1",
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
